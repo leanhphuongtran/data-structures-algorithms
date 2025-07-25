@@ -1,4 +1,6 @@
 '''
+Credit: https://jovian.com/learn/data-structures-and-algorithms-in-python/lesson/lesson-1-binary-search-linked-lists-and-complexity
+
 Question:
 Alice has some cards with numbers written on them.
 She arranges the cards in decreasing order, and lays them out face down in a sequence
