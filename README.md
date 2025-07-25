@@ -7,17 +7,20 @@ I'm solving problems in both **Python** and **C#**, and learning from multiple s
 
 - ✅ Linear Search
 - ✅ Binary Search
+- 🔜 Recursion (Trees, Graphs, Backtracking, DP & more)
+- 🔜 DFS and BFS
+- 🔜 Sliding window
+- 🔜 Sorting
 - 🔜 Arrays
 - 🔜 Linked Lists
-- 🔜 Hash Maps
+- 🔜 HashMaps
 - 🔜 Stacks
 - 🔜 Queues
 - 🔜 Trees
 - 🔜 Graphs
-- 🔜 Recursion (Trees, Graphs, Backtracking, DP & more)
-- 🔜 DFS and BFS
-- 🔜 Sliding window
 - 🔜 Heaps
+- 🔜 Strings
+- 🔜 Sets
 
 ## 📁 Folder Structure
 
