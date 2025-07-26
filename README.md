@@ -28,7 +28,7 @@ Each topic has its own folder:
 
 ## 📚 Sources I'm Learning From
 
-- Jovian DSA Course (Python)
+- Jovian DSA Course (Python): https://jovian.ai/learn/data-structures-and-algorithms-in-python
 - FreeCodeCamp (C# Algorithms)
 - Codecademy (C# Algorithms)
 - LeetCode & HackerRank problems
