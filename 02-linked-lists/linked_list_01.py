@@ -1,5 +1,7 @@
 '''
 Question: Write  a function to reverse a linked list
+
+Site: https://jovian.com/learn/data-structures-and-algorithms-in-python/lesson/lesson-1-binary-search-linked-lists-and-complexity?notebook=aakashns/python-classes-and-linked-lists
 '''
 
 class Node():
