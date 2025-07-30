@@ -38,7 +38,7 @@ Step 3: Correct solution in English
 
 Step 4: Implement the solution and test it using example inputs
 
-Step 5:
+Step 5: Analyze the algorithm's complexity
 
 Step 6:
 '''
@@ -68,16 +68,22 @@ class UserDatabase:
             if self.users[i].username > user.username:
                 break
             i += 1
+        
+        # Use insert(index, element) method to insert an element into a list at a 
+        # specific position
         self.users.insert(i, user)
 
     def find(self, username):
-        pass
+        for user in self.users:
+            if user.username == username:
+                return user
 
     def update(self, user):
-        pass
+        target = self.find(user.username)
+        target.name, target.email = user.name, user.email
 
     def list_all(self):
-        pass
+        return self.users
     
 
 # Creating some sample user profiles that can be used to test our functions once we implement them
@@ -85,10 +91,24 @@ seungwan = User('seungwan', 'Wendy Son', 'wendy@gmail.com')
 irene = User('irene', 'Bae Joo Hyun', 'irene@gmail.com')
 tiffany = User('tiffany', 'Hwang Mi Young', 'tifany@seattleu.edu')
 yoona = User('yoona', 'Im Yoon A', 'yoona@yahoo.com')
-
+yuri = User('yuri', 'Kwon Yuri', 'yuri@gmail.com')
+sunny = User('sunny','Seo Joo Hyun','seohyun@gmail.com')
 users = [seungwan, irene, tiffany, yoona]
+
+database = UserDatabase()
+database.insert(yoona)
+database.insert(tiffany)
+database.insert(yuri)
+database.insert(sunny)
+user = database.find('yoona')
+print(user)
+
+database.update(User(username='sunny', name='Lee Sun Kyu', email='sunny@gmail.com'))
+user = database.find('sunny')
+print(user)
+
+print(database.list_all())
 
 # Viewing a string representation of the object
 # print(tiffany)
 
-print('tiffany' < 'yoona')
